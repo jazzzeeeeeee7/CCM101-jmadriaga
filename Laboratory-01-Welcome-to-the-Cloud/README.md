@@ -25,22 +25,24 @@ This laboratory activity gave me hands-on experience with a cloud-based Linux en
 
 # Linux Commands Used
 
-* `whoami`
-* `pwd`
-* `hostname`
-* `adduser`
-* `usermod`
-* `su`
-* `cat`
-* `uname`
-* `lscpu`
-* `free`
-* `df`
-* `mkdir`
-* `cd`
-* `ls`
-* `nano`
-* `touch`
+- `whoami`
+- `pwd`
+- `hostname`
+- `useradd`
+- `passwd`
+- `su`
+- `id`
+- `echo`
+- `grep`
+- `uname`
+- `lscpu`
+- `free`
+- `df`
+- `mkdir`
+- `cd`
+- `ls`
+- `nano`
+- `cat`
 
 # Skills Learned
 
