@@ -1,51 +1,41 @@
 # Docker Deployment
 
-## Nginx Deployment
+## Nginx Container Deployment
 
-First, I pulled the official Nginx image using:
+For this activity, I used Docker to pull an Nginx image and run it as a container.
 
-docker pull nginx
+### Commands Used
 
-This command downloads the Nginx image that will be used to create the container.
+`docker pull nginx`
 
-Next, I created and started the Nginx container using:
+This command downloaded the official Nginx image needed for the container.
 
-docker run -d -p 8080:80 --name nginx-server nginx
+`docker run -d -p 8080:80 --name nginx-server nginx`
 
-This command runs Nginx in the background and maps host port 8080 to container port 80.
+This command created and started the Nginx container in the background while mapping host port 8080 to container port 80.
 
-To verify that the Nginx server was working, I used:
+`curl http://localhost:8080`
 
-curl http://localhost:8080
-
-This command checks if the Nginx web server can be accessed through port 8080.
+This command checked whether the Nginx web server was accessible through port 8080 and displayed the Nginx welcome page.
 
 ## Container Lifecycle
 
-### 1. List Running Containers
+`docker ps`
 
-docker ps
+This command listed the Docker containers that were currently running.
 
-This command lists the Docker containers that are currently running.
+`docker stop nginx-server`
 
-### 2. Stop the Running Container
+This command stopped the running Nginx container.
 
-docker stop nginx-server
+`docker ps -a`
 
-This command stops the running Nginx container.
+This command displayed all containers and allowed me to verify that the Nginx container was stopped.
 
-### 3. Verify It Is Stopped
+`docker rm nginx-server`
 
-docker ps -a
+This command completely removed the stopped Nginx container.
 
-This command displays all containers and allows me to verify that the Nginx container has stopped.
+`docker ps -a`
 
-### 4. Remove the Container Completely
-
-docker rm nginx-server
-
-This command completely removes the stopped Nginx container from the Docker environment.
-
-## Summary
-
-Through this activity, I learned how to pull a Docker image, run an Nginx container, use port mapping, check the container status, stop a container, and remove it from the Docker environment.
+This command was used again to confirm that the Nginx container had been removed from the Docker environment.
