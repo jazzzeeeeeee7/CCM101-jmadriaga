@@ -19,21 +19,21 @@ This laboratory activity introduced me to containers and Docker. I learned how c
 docker --version
 docker info
 
-Deploy Nginx
+## Deploy Nginx
 docker pull nginx
 docker run -d -p 8080:80 --name nginx-server nginx
 curl http://localhost:8080
 
-Container Lifecycle
+## Container Lifecycle
 docker ps
 docker stop nginx-server
 docker ps -a
 docker rm nginx-server
 
-Skills Learned
+## Skills Learned
 
 I learned how to use basic Docker commands to pull images, run containers, check their status, stop them, and remove them. I also learned how port mapping allows a containerized application to be accessed through the host machine.
 
-Challenges Encountered
+## Challenges Encountered
 
 One challenge was remembering the correct Docker commands and understanding how the container port and host port are connected. Running the commands step by step helped me understand the Docker container lifecycle.
