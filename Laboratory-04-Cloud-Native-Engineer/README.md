@@ -18,10 +18,13 @@ This laboratory activity introduced me to containers and Docker. I learned how c
 -bash
 docker --version
 docker info
+
+Deploy Nginx
 docker pull nginx
 docker run -d -p 8080:80 --name nginx-server nginx
 curl http://localhost:8080
 
+Container Lifecycle
 docker ps
 docker stop nginx-server
 docker ps -a
