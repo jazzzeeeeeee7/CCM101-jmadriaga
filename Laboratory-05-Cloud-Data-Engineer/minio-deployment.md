@@ -8,6 +8,8 @@ docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
 minio/minio server /data --console-address ":9001"
 
+
+
 The command above was used to deploy the MinIO object storage server using Docker. It maps port 9000 for the MinIO API and port 9001 for the MinIO Web Console.
 
 Web Console Port
