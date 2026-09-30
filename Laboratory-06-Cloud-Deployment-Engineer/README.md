@@ -28,11 +28,4 @@ This laboratory focuses on deploying a multi-tier private cloud storage applicat
 
 ## Skills Learned
 
-* Linux command-line operations
-* Docker Compose
-* YAML configuration
-* Multi-tier application deployment
-* Container management
-* Infrastructure as Code (IaC)
-* Technical documentation using Markdown
-
+In this laboratory, I learned how to use Linux commands, Docker Compose, and YAML configuration to deploy and manage a multi-container application. I also learned how multi-tier architecture and Infrastructure as Code (IaC) can make cloud deployment more organized and manageable.
