@@ -19,7 +19,11 @@ Application logs help engineers identify failed requests and understand what hap
 The `docker stats` command was used to monitor the resource consumption of the Nginx container.
 
 - **Container Name:** client-website
-- **Memory Usage:** [ilagay ang actual memory usage]
-- **CPU Usage:** [ilagay ang actual CPU percentage]
+- **Memory Usage:** 2.742 MiB / 1.859 GiB
+- **CPU Usage:** 0.00%
+- **Memory Usage Percentage:** 0.14%
+- **Network I/O:** 3.84 kB received / 5.29 kB sent
+- **Block I/O:** 0 B read / 12.3 kB written
+- **PIDs:** 2
 
-These metrics help determine how much memory and CPU the container consumes while running.
+These metrics show the current resource consumption of the Nginx container while running. The container uses only 2.742 MiB of memory and has a CPU usage of 0.00% at the time of monitoring. This indicates that the container is using minimal system resources during the observation.
