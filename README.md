@@ -12,12 +12,16 @@ This repository serves as my Cloud Computing Portfolio for CCM101. It will conta
 
 I will use this repository to organize my work and track the skills and knowledge I gain as I progress through the different laboratory activities.
 
- Laboratory Activities
+ 
+## Laboratory Activities
 
-* **Laboratory 01 – Welcome to the Cloud**
-
-  * Introduction to Linux and cloud-based environments
-  * Basic Linux commands and system information
-  * File and directory organization
-  * GitHub repository and Markdown documentation
-  * Technical screenshots and reflection
+- **Laboratory 01 – Welcome to the Cloud**
+- **Laboratory 02 – Build the Cloud Infrastructure Blueprint**
+- **Laboratory 03 – Multi-Cloud Explorer**
+- **Laboratory 04 – Cloud-Native Engineer**
+- **Laboratory 05 – Cloud Data Engineer**
+- **Laboratory 06 – Cloud Deployment Engineer**
+- **Laboratory 07 – Cloud Operations Engineer**
+- **Laboratory 08 – Cloud Security Engineer**
+- **Laboratory 09 – Cloud Automation Engineer**
+- **Laboratory 10 – Enterprise Cloud Architect**
